@@ -4,4 +4,6 @@
 
 <a href=<%=new_user_registration_path%>  class="btn btn-large btn-primary" >  Promoter Sign Up</a>
 
-<a href=<%=new_buss_registration_path%>  class="btn btn-large btn-primary" >  Promoter Sign Up</a>
+<a href=<%=new_buss_registration_path%>  class="btn btn-large btn-primary" >  Business Sign Up</a>
+
+<%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
